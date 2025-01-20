@@ -6,3 +6,129 @@
   font-weight: 400;
   font-style: normal;
 }
+
+/* shared styles */
+.display-flex{
+    display: flex;
+}
+.text-orange{
+    color: #FEA301;
+}
+.text-skyblue{
+    color: #01ACFD;
+}
+.text-fresh{
+    color: #05D4DF;
+}
+.text-purple{
+    color: #5D58EF;
+}
+.text-black{
+    color: #111111;
+}
+/* header styles */
+
+/* navbar related styles */
+.navbar{
+   justify-content: space-between;
+   align-items: center;
+}
+.nav-logo{
+    width: 62px;
+    height: 62px;
+}
+.nav-title{
+    font-size: 1.875rem;
+    font-weight: bold;
+    
+}
+.nav-link{
+   text-decoration: none;
+   font-weight: 500;
+   font-size: 1.25rem;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-btn{
+    width: 197px;
+    height: 50px;
+    font-size: 1.25rem;
+    background-color: #FEA301;
+    border: none;
+    color: white;
+    border-radius: 12px;
+    padding: 10px 60.5px;
+}
+.navbar,.banner{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.brand{
+    align-items: center;
+    gap: 11px;
+}
+
+/* banner section start */
+.banner{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.banner-content{
+    max-width: 850px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    margin-left: 12px;
+}
+.hero-title{
+    font-weight: bold;
+    font-size: 	3.50rem;
+}
+.banner-btn{
+    width: 197px;
+    height: 50px;
+    font-size: 1.25rem;
+    background-color: #111111;
+    color: white;
+    border-radius: 12px;
+    padding: 10px 25px;
+}
+/* .banner-image{
+    width: 100%;
+} */
+
+@media screen and (max-width:576px) {
+    .nav-title{
+        display: none;
+    }
+    .nav-links{
+        display: none;
+    }
+    .nav-btn{
+        display: none;
+    }
+   
+    .banner{
+      flex-direction: column-reverse;
+      margin: 20px;
+      gap: 0px;
+      border-top: 1px solid #FEA301;
+    }
+    .banner-image{
+        width: 100%;
+    }
+    .banner-content{
+        text-align: center;
+        gap: 18px;
+        
+    }
+    .hero-title{
+        font-size: 2rem;
+    }
+    .banner-description{
+        font-size:0.875rem;
+    }
+    
+}
