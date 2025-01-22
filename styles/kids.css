@@ -61,13 +61,24 @@
     border-radius: 12px;
     padding: 10px 60.5px;
 }
-.navbar,.banner{
+.menu{
+    display:none;
+}
+.navbar,.banner,.Curriculum{
     max-width: 1140px;
     margin: 0 auto;
 }
 .brand{
     align-items: center;
     gap: 11px;
+}
+
+/* marquee */
+.marquee{
+    font-size: 2.35rem;
+    font-weight: 600;
+    background-color: #01ACFD;
+    color: #e8f5fe;
 }
 
 /* banner section start */
@@ -94,12 +105,293 @@
     color: white;
     border-radius: 12px;
     padding: 10px 25px;
+    margin-top: 10px;
 }
 /* .banner-image{
     width: 100%;
 } */
 
+/* banner section done */
+
+/* Standard Curriculum style start */
+.Curriculum{
+    background-image: url(/assets/bg.png);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+}
+.Curriculum-title{
+    margin-top: 60px;
+    text-align: center;
+}
+.Curriculum-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+    margin-top: 80px;
+}
+.kinder{
+   text-align: center;
+   background: linear-gradient(to bottom, #e8f5fe, #ffffff);
+   padding: 20px;
+   border-radius: 20px;
+   margin-bottom: 30px;
+}
+.kinder-btn{
+    color: #64C8FF;
+    border: none;
+    text-decoration: none;
+}
+.elementary{
+    text-align: center;
+    background: linear-gradient(to bottom, #fff5e6, #ffffff);
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.elementary-btn{
+    color: #F0AA00;
+    border: none;
+    text-decoration: none;
+}
+.middle{
+    text-align: center;
+    background: linear-gradient(180deg, #f3e8fd, #ffffff);
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+.middle-btn{
+    color: #8700FF;
+    border: none;
+    text-decoration: none;
+}
+.icon{
+    margin-top: 80px;
+    text-align: center;
+}
+/* curriculam done */
+
+/* Our-Stories start */
+.Our-Stories{
+    background-image: url(/assets/bg.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(to bottom, #fff, #fce1b4);
+}
+.Stories-title{
+    text-align: center;
+    margin-top: 60px;
+}
+.story-all{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1140px;
+    margin: 0 auto;
+    gap: 18px;
+}
+.story-all{
+    width: 100%;
+    margin-top: 80px;
+    /* position: relative; */
+}
+.story-part2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.story1{
+    background-color: white;
+  border-radius: 15px;
+}
+.story1-img{
+    width: 100%;
+    /* width: 540px;
+    height: 337px;  */
+     border-start-start-radius: 15px; 
+    border-top-right-radius: 15px; 
+}
+.story-section1{
+    padding: 0px 40px;
+    background-color: white;
+    margin-top: -30px;
+}
+.btn-story1{
+    background-color: #3CD8E8;
+    color: white;
+    border: none;
+    width: 10.9em;
+    height: 2.9em;
+    border-radius: 20px;
+    /* position: relative; */
+}
+.story1-title{
+    margin-top: 40px;
+}
+.story1-description{
+    margin-top: 50px;
+}
+.story2{
+    background-color: white;
+    border-radius: 15px;
+}
+.story2-img{
+    width: 100%;
+    border-start-start-radius: 15px; 
+    border-top-right-radius: 15px; 
+}
+.story-section2{
+    padding: 0px 40px;
+    margin-top: -30px;
+}
+.btn-story2{
+    background-color: #95B226;
+    color: white;
+    border: none;
+    width: 10.9em;
+    height: 2.9em;
+    /* width: 174.51px;
+    height: 47.93px; */
+    width: 100%;
+    border-radius: 20px;
+    /* position: relative; */
+}
+.story3{
+    background-color: white;
+    border-radius: 15px;
+}
+.story3-img{
+    width: 100%;
+    border-start-start-radius: 15px; 
+    border-top-right-radius: 15px; 
+}
+.story-section3{
+    padding: 0px 40px;
+    margin-top: -30px;
+}
+.btn-story3{
+    background-color: #5D58F0;
+    color: white;
+    border: none;
+    width: 10.9em;
+    height: 2.9em;
+    width: 100%;
+    border-radius: 20px;
+    /* position: relative; */
+}
+.story4{
+    background-color: white;
+    border-radius: 15px;
+}
+.story4-img{
+    width: 100%;
+    border-start-start-radius: 15px; 
+    border-top-right-radius: 15px; 
+}
+.story-section4{
+    /* width: 100%; */
+    padding: 0px 40px;
+    margin-top: -30px;
+}
+.btn-story4{
+    background-color: #95B226;
+    color: white;
+    border: none;
+    width: 10.9em;
+    height: 2.9em;
+    width: 100%;
+    border-radius: 20px;
+    /* position: relative; */
+}
+.story5{
+    background-color: white;
+    border-radius: 15px;
+}
+.story5-img{
+    width: 100%;
+    border-start-start-radius: 15px; 
+    border-top-right-radius: 15px; 
+}
+.story-section5{
+    padding: 0px 40px;
+    margin-top: -30px;
+}
+.btn-story5{
+    background-color: #95B226;
+    color: white;
+    border: none;
+    width: 10.9em;
+    height: 2.9em;
+    width: 100%;
+    border-radius: 20px;
+    /* position: relative; */
+}
+.story6{
+    display: none;
+    background-color: white;
+    border-radius: 15px;
+}
+.story7{
+    display: none;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.view{
+    text-align: center;
+}
+
+.btn-viewall{
+    background-color: #111111;
+    color: white;
+    width: 12.31rem;
+    height: 3.12rem;
+    /* margin-left: 600px; */
+   border-radius: 12px;
+   margin-top: 60px;
+   margin-bottom: 80px;
+}
+
+/* Our Stories done */
+/* footer start */
+.footer{
+    background-color: #01ACFD;
+}
+.footer-all{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    max-width: 1140px;
+    padding: 30px;
+    margin: 0 auto;
+    color: white;
+    gap: 40px;
+}
+.section1{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.section3{
+    display: flex;
+    gap: 10px;
+}
+.column-1{
+    margin-top: 74px;
+    margin-bottom: 70px;
+}
+.column-2{
+    margin-top: 74px;
+    margin-left: 50px;
+    margin-bottom: 70px;
+}
+.column-3{
+    margin-top: 74px;
+    margin-bottom: 70px;
+}
+
 @media screen and (max-width:576px) {
+    /* nav responsive start */
     .nav-title{
         display: none;
     }
@@ -109,7 +401,18 @@
     .nav-btn{
         display: none;
     }
-   
+    .menu{
+        display: block;
+        font-size: 2rem;
+        margin-right: 1.0rem;
+    }
+    /* nav responsive done */
+    /* marquee */
+     .marquee{
+        display: none;
+     }
+     /* marquee done */
+   /* banner responsive start */
     .banner{
       flex-direction: column-reverse;
       margin: 20px;
@@ -129,6 +432,102 @@
     }
     .banner-description{
         font-size:0.875rem;
+    }
+    /* banner responsive done */
+    /* curriculam responsive */
+    .Curriculum-section{
+      grid-template-columns: 1fr;
+      margin-top: 40px;
+      margin: auto;
+      gap: 5px;
+      background-color: whitesmoke;
+    }
+    .icon{
+        display: none;
+    }
+    /* curriculam done */
+    /* Our Stories */
+    .story-part2{
+        grid-template-columns: repeat(2,1fr);
+        margin-top: -40px;
+        font-size: -2rem;
+        /* position: relative; */
+        padding: 0px 8px;
+        width: 100%;
+    }
+    .story2-img{
+        width: 100%;
+    }
+    .story3-img{
+        width: 100%;
+    }
+    .story4-img{
+        width: 100%;
+    }
+    .story5-img{
+        width: 100%;
+    }
+    /* .story-all{
+        width: 100%;
+        font-size: -2rem;
+    }
+    .Our-Stories{
+        width: 100%;
+        object-fit: cover;
+    }  */
+    
+      /* .btn-story2{
+        font-size: -2rem;
+        width: 100%;
+      }
+      .btn-story3{
+        font-size: -2rem;
+        width: 100%;
+      }
+      .btn-story4{
+        font-size: -2rem;
+        width: 100%;
+      }
+      .btn-story5{
+        font-size: -2rem;
+        width: 100%;
+      }
+      .story-section2{
+        font-size: -2rem;
+      }
+      .story-section3{
+        font-size: -2rem;
+      }
+      .story-section4{
+        font-size: -2rem;
+      }
+      .story-section5{
+        font-size: -2rem;
+      } */
+    .story1{
+        display: none;
+    }
+    .story6{
+        display: block;
+    }
+    .story7{
+        display: block;
+    }
+    /* Our Stories done */
+    /* footer start */
+    .footer-all{
+        grid-template-columns: repeat(1,1fr);
+        margin-top: -40px;
+    }
+    .column-1{
+        margin-top: 15px;
+    }
+    .column-2{
+        margin-top: -110px;
+        margin-left: 4px;
+    }
+    .column-3{
+        margin-top: -110px;
     }
     
 }
